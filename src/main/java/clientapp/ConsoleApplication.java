@@ -82,7 +82,7 @@ public class ConsoleApplication extends ConsoleApplicationBase {
 		try {
 			customerStoreServices = storeServicesFactory.forExistingCustomer(loginName, password);
 			if (customerStoreServices != null) {
-				printColoredMessageLine(GREEN, "Вы успешно вошли в систему...");
+				printColoredMessageLine(GREEN, "Вы вошли в систему");
 				return true;
 			} else {
 				printColoredMessageLine(RED, "Пользователь не найден.");
