@@ -136,7 +136,7 @@ public class ConsoleApplication extends ConsoleApplicationBase {
 		while (run) {
 			printColoredHeader(BLUE, "Приложение для покупки транспортных билетов");
 
-			System.out.println(YELLOW + "1. Выбрать маршрут и посмотреть доступные места" + RESET);
+			System.out.println(YELLOW + "1. Выбрать маршрут" + RESET);
 			System.out.println(RED + "0. Выйти" + RESET);
 
 			System.out.print("?> ");
